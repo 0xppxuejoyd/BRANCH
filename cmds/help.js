@@ -59,7 +59,7 @@ module.exports = {
                                        commandInfo.usedby === 1 ? "Admin Group" :
                                        commandInfo.usedby === 2 ? "Global Admin" :
                                        commandInfo.usedby === 3 ? "Moderator" :
-                                       commandInfo.usedby === 4 ? "Admin and Moderator" : "kyzin and fait";
+                                       commandInfo.usedby === 4 ? "Admin and Moderator" : "unknown";
 
                 const helpMessage = `╭─『 ${commandInfo.name || "Unknown"} 』\n` +
                     `│✧ Name: ${commandInfo.name || "Unknown"}\n` +
